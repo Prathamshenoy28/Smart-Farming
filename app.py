@@ -29,3 +29,4 @@ def predict_crop(soil_moisture, temperature, humidity, light_intensity):
 if st.button("Predict Crop"):
     result = predict_crop(soil_moisture, temperature, humidity, light_intensity)
     st.success(f"Recommended Crop: {result}")
+
